@@ -1,0 +1,31 @@
+body {
+    background-image: url("Capture.PNG");
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    color: aliceblue;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    color: wheat;
+    font-style: italic;
+}
+
+button {
+    color: #016F32;
+    width: 170px;
+    background-color: goldenrod;
+    font-weight: bold;
+    padding: 7px 0 7px 0;
+    border: none;
+    border-radius: 5px;
+}
+ 
