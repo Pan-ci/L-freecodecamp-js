@@ -4,6 +4,11 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-weight: bold;
+    align-items: center; /* Vertically */
+    /* justify-content: space-evenly;   Horizontally */
+    /* display: flex;
+    flex-direction: column;
+    padding-bottom: 50px; */
 }
 
 p {
@@ -27,5 +32,28 @@ button {
     padding: 7px 0 7px 0;
     border: none;
     border-radius: 5px;
+    margin: 2px;
 }
  
+.div-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*  Mobile: 320-375px, 360px, 414-425px
+    Tablet & Landscape Phone: 480-600px, 640px, 800px, 1024px
+    Laptop & Small Desktop: 1024-1025px, 1200-1280px
+    Large Desktop Screen: 1366-1440px, 1536-1600px, 1920px
+    Main Breakpoint Popular Framework:
+        1. 576px: Small (Landscape Phone)
+        2. 768px: Medium (Tablet)
+        3. 992px: Large (Laptop)
+        4. 1200px: Extra Large (Desktop)
+        5. 1400px: Extra Extra Large (Large Desktop) */
+
+@media (max-width: 768px) {
+    .div-column {
+        flex-direction: column;
+    }
+}

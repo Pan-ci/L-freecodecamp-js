@@ -9,7 +9,13 @@
         <p id="message-el">Want to play a round?</p>
         <p>Cards: <span class="cards-el"></span></p>
         <p>Sum: <span id="sum-el"></span></p>
-        <button onclick="startGame()">START GAME</button>
+        <div style="display: inline-flex; align-items: center;">
+            <div class="div-column">
+                <button onclick="startGame()">START GAME</button>
+                <button onclick="newCard()">NEW CARD</button>
+            </div>
+        </div>
         <script src="blackjack-game.js"></script>
+        <script src="array-introduction.js"></script>
     </body>
 </html>
